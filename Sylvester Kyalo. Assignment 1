@@ -1,0 +1,40 @@
+public class Test {
+     int othercompanyUserId=345; 
+     othercompanyUserPassUserPass=selloh"; 
+     int otherAcc;String otherPass=null; 
+     Scanner sc = new Scanner(System.in); 
+     
+     public void checkOtherPass({ 
+     System.out.println("Enter the account"); 
+     otherAcc = sc.nextInt(); 
+     if(otherAcc==othercompanyUserId) 
+     { 
+     while(passError<3) { 
+     System.out.println("Account Details is verified. Enter the password"); 
+     otherPass = sc.next(); 
+     if(otherPass.equals(othercompanyUserPass)) { 
+     System.out.println("logged in successfully"); 
+     System.out.println("Find updats:"); 
+     int amountSum=sc.nextInt(); 
+     System.out.println(amountSum+"Rs withdraw successfully done. Log out!"); 
+     } 
+     else { 
+     System.out.println("wrong password!"); 
+     passError=passError+1; 
+     System.out.println("Wrong Entries:"+passError+"\nMax Wrong pass entries:3"); 
+     } 
+     
+     }
+     System.out.println("Account is contact customer service "); 
+      } 
+      
+      else { 
+      System.out.println("Wrong account number.Do the process again"); 
+      
+      }
+      }
+      public static void main(String[] args) { Test t = new Test(); t.checkOtherPass(); 
+      
+      } 
+ 
+   }
